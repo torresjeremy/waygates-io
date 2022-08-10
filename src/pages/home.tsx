@@ -1,10 +1,11 @@
 import react from 'react';
+import WaygatesHome from '../images/waygates_home2.png';
 
 const Home = () => {
     return (
         <div className="p-16">
             <div className="flex justify-center pb-20">
-                <div className="header text-4xl w-80 box-shadow p-4">
+                <div className="header text-5xl w-fit box-shadow p-4">
                     The Waygates
                 </div>
             </div>
@@ -22,8 +23,8 @@ const Home = () => {
                     </div>
                 </div>
                 <div className="w-5/12">
-                    <div className="w-full flex justify-center">
-                        <img src="https://via.placeholder.com/350x450" alt="waygates portal"/>
+                    <div className="w-full flex justify-center items-center">
+                        <img className="md:w-[450px]" src={WaygatesHome} alt="waygates portal"/>
                     </div>
                     <div className="text-center pt-4 text-sm italic">Where will the waygates take you? 🌀</div>
                 </div>

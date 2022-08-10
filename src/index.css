@@ -7,11 +7,17 @@ body {
   font-family: "Source Code Pro";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #bbf3f9;
 }
 
 .box-shadow {
   box-shadow: 5px 5px;
   border: 1px solid black;
+  background-color: white;
+}
+
+.active-link {
+  border-bottom: 2px solid black;
 }
 
 /* code {
